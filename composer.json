@@ -1,0 +1,31 @@
+{
+    "name": "saulmoralespa/credibanco-api-php",
+    "description": "Credibanco API PHP SDK",
+    "keywords": [
+        "credibanco", "api", "credibanco-api",
+        "php-credibanco", "boton"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saul Morales Pacheco",
+            "email": "info@saulmoralespa.com",
+            "homepage": "http://saulmoralespa.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*",
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saulmoralespa\\Credibanco\\": "src/"
+        }
+    }
+}
